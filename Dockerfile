@@ -1,5 +1,5 @@
 FROM python
-RUN useradd -m -u 1000 user
+RUN useradd -m -u 15000 user
 USER user
 ENV PATH="/home/user/.local/bin:$PATH"
 
